@@ -1,0 +1,30 @@
+{
+  "name": "burger",
+  "version": "1.0.1",
+  "description": "burger app using CRUD method to create, devour a burger.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BFRaven/burger.git"
+  },
+  "keywords": [
+    "burger",
+    "crud"
+  ],
+  "author": "karen beltran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BFRaven/burger/issues"
+  },
+  "homepage": "https://github.com/BFRaven/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0",
+    "sql": "^0.78.0"
+  }
+}
