@@ -4,7 +4,7 @@ var bodyParser = require("body-parser");
 var app = express();
 
 // Set the port of our application
-// process.env.PORT lets the port be set by Heroku
+// process.env.PORT lets the port be set by Heroku or any dynamically changing source
 var PORT = process.env.PORT || 8080;
 
 // Use the express.static middleware to serve static content for the app from the "public" directory in the application directory.
